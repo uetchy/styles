@@ -5,7 +5,12 @@
     "Yasuaki Uechi <uetchy@randompaper.co>"
   ],
   "description": "plenty of styles for designing web.",
-  "main": "index.sass",
+  "main": [
+    "index.sass",
+    "_font.sass",
+    "_reset.sass",
+    "_splittable.sass"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/uetchy/styles",
   "ignore": [
